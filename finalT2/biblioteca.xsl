@@ -21,7 +21,7 @@
          <h2>
              <xsl:value-of select="titulo"/>
          </h2>
-     <div>
+     </div>
   </xsl:template>
 
 </xsl:stylesheet>
