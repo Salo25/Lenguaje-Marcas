@@ -1,14 +1,24 @@
-div {
+div.contenido {
     width: 300px;
 }
 
-p {
-    color:blue !important;
+p.parrafo {
+    color:blue;
+    /*
+       Es una mala practica usar !importan , no se deb usar casi-nunca según el
+       estandar w3, solo si es estrictamente necasario.
+       Mire la web oficila del estandar: https://www.w3schools.com/css/css_important.asp
+       Por tanto, me veo en la obligación de eliminarlo por seguir una buena practica.
+    */
     background-color:yellow;
 }
 
 @media only screen and (max-width: 550px) {
-    div {
+    div.contenido {
         display: none;
+    }
+
+    p.errorViewport {
+        display: inline;
     }
 }

@@ -10,15 +10,18 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         </head>
         <body>
-            <xsl:apply-templates />
+            <div>
+                <xsl:apply-templates />
+                <p class="errorViewport" style="display: none;">Viewport demasiado estrecho</p>
+            </div>
         </body>
     </html>
   </xsl:template>
 
 
   <xsl:template match="libro">
-     <div>
-         <p>
+     <div class="contenido">
+         <p class="parrafo">
              <xsl:value-of select="autor"/>
          </p>
          <h2>
