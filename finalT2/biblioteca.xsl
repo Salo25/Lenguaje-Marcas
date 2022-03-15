@@ -5,7 +5,10 @@
 
  <xsl:template match="/">
 	<html>
-        <head><link rel="stylesheet" type="text/css" href="biblioteca.css" /></head>
+        <head>
+            <link rel="stylesheet" type="text/css" href="biblioteca.css" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        </head>
         <body>
             <xsl:apply-templates />
         </body>
