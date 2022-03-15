@@ -12,7 +12,7 @@
         <body>
             <div>
                 <xsl:apply-templates />
-                <p class="errorViewport" style="display: none;">Viewport demasiado estrecho</p>
+                <p class="errorViewport">Viewport demasiado estrecho</p>
             </div>
         </body>
     </html>
