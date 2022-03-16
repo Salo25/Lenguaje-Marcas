@@ -10,7 +10,7 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         </head>
         <body>
-            <div>
+            <div id="cuerpoPagina">
                 <xsl:apply-templates />
                 <p class="errorViewport">Viewport demasiado estrecho</p>
             </div>
