@@ -1,11 +1,11 @@
 #cuerpoPagina {
     display: flex;
+    display: flex;
+    justify-content: space-between;
 }
 
 div.contenido {
     width: 300px;
-    display: flex;
-    justify-content: space-between;
 }
 
 .portaretratos {
