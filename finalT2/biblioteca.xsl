@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 
+<!--                 <xsl:attribute name="src">
+                     <xsl:value-of select="foto"/>
+                 </xsl:attribute>
+-->
 
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
@@ -22,11 +26,7 @@
   <xsl:template match="libro">
      <div class="contenido">
          <div class="portaretratos">
-             <img class="portaretratos iamges">
-                 <xsl:attribute name="src">
-                     <xsl:value-of select="foto"/>
-                 </xsl:attribute>
-             </img>
+             <img class="portaretratos iamges" src="{foto}"/>
          </div>
          <p class="parrafo">
              <xsl:value-of select="autor"/>
