@@ -8,14 +8,15 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
  <xsl:template match="/">
-	<html>
+	<html lang="es">
         <head>
+            <meta charset="UTF-8"/>
             <link rel="stylesheet" type="text/css" href="biblioteca.css" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         </head>
         <body>
             <div id="cuerpoPagina">
-                <xsl:apply-templates />
+                <xsl:apply-templates/>
                 <p class="errorViewport">Viewport demasiado estrecho</p>
             </div>
         </body>

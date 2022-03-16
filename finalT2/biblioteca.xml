@@ -4,19 +4,19 @@
 <biblioteca>
   <libro>
     <foto>miki.webp</foto>
-    <titulo>La vida está en otra parte</titulo>
+    <titulo>Las faenas de Miki</titulo>
     <autor>Milan Kundera</autor>
     <fechaPublicacion/>
   </libro>
   <libro>
     <foto>senda.webp</foto>
-    <titulo>Pantaleón y las visitadoras</titulo>
+    <titulo>Sueños de Senda</titulo>
     <autor fechaNacimiento="28/03/1936">Mario Vargas Llosa</autor>
     <fechaPublicacion año="1973"/>
   </libro>
   <libro>
     <foto>summer.webp</foto>
-    <titulo>Conversación en la catedral</titulo>
+    <titulo>Sol, vitaminas y Summer</titulo>
     <autor fechaNacimiento="28/03/1936">Mario Vargas Llosa</autor>
     <fechaPublicacion año="1969"/>
   </libro>
