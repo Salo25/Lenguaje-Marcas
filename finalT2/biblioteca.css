@@ -1,13 +1,13 @@
-img {
-    object-fit: scale-down;
-}
-
 div.contenido {
     width: 300px;
 }
 
 div.portaretratos {
     width: auto;
+}
+
+img.iamges {
+    object-fit: scale-down;
 }
 
 p.parrafo {

@@ -22,7 +22,7 @@
   <xsl:template match="libro">
      <div class="contenido">
          <div class="portaretratos">
-             <img>
+             <img class="portaretratos iamges">
                  <xsl:attribute name="src">
                      <xsl:value-of select="foto"/>
                  </xsl:attribute>
