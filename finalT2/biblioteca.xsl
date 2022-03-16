@@ -21,6 +21,13 @@
 
   <xsl:template match="libro">
      <div class="contenido">
+         <div class="portaretratos">
+             <img>
+                 <xsl:attribute name="src">
+                     <xsl:value-of select="foto"/>
+                 </xsl:attribute>
+             </img>
+         </div>
          <p class="parrafo">
              <xsl:value-of select="autor"/>
          </p>
