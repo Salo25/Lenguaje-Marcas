@@ -43,3 +43,7 @@ p.errorViewport {
 .contenido:hover {
     transform: scale(1.25, 1.25);
 }
+
+.contenido:active {
+    transform: grayscale(100%);
+}
