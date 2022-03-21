@@ -44,6 +44,6 @@ p.errorViewport {
     transform: scale(1.25, 1.25);
 }
 
-.contenido:active {
+img:active {
     transform: grayscale(100%);
 }
