@@ -29,9 +29,6 @@
          <div class="portaretratos">
              <img class="portaretratos iamges" src="{foto}"/>
          </div>
-         <p class="parrafo">
-             <xsl:value-of select="autor"/>
-         </p>
          <h2>
              <xsl:value-of select="titulo"/>
          </h2>

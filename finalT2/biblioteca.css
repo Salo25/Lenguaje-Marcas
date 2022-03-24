@@ -15,17 +15,6 @@ img.iamges {
     object-fit: scale-down;
 }
 
-p.parrafo {
-    color:blue;
-    /*
-       Es una mala practica usar !importan , no se deb usar casi-nunca según el
-       estandar w3, solo si es estrictamente necasario.
-       Mire la web oficila del estandar: https://www.w3schools.com/css/css_important.asp
-       Por tanto, me veo en la obligación de eliminarlo por seguir una buena practica.
-    */
-    background-color:yellow;
-}
-
 p.errorViewport {
     display: none;
 }
@@ -40,10 +29,10 @@ p.errorViewport {
     }
 }
 
-.contenido:hover {
+h2:hover {
     transform: scale(1.25, 1.25);
 }
 
 img:active {
-    transform: grayscale(100%);
+    filter: grayscale(100%);
 }
