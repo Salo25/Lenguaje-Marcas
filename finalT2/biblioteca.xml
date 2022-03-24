@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="biblioteca.xsl"?>
 
-<biblioteca>
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///E:/Estudios/1%C2%BADAW/L-Marcas/Ejercicios/Proyecto%202do%20Trimestre/finalT2/finalT2/biblioteca.xsd">
   <libro>
     <foto>miki.webp</foto>
     <titulo>Las faenas de Miki</titulo>

@@ -3,7 +3,7 @@
     <xs:element name="biblioteca">
         <xs:complexType>
             <xs:sequence>
-                <xs:element minOccurs= "1" maxOccurs="unbounded" ref="libro"/>
+                <xs:element maxOccurs="unbounded" ref="libro"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
@@ -11,7 +11,6 @@
         <xs:complexType>
             <xs:sequence>
                 <xs:element ref="foto"/>
-                <xs:element ref="sexo"/>
                 <xs:element ref="titulo"/>
                 <xs:element ref="autor"/>
                 <xs:element ref="fechaPublicacion"/>
@@ -19,7 +18,6 @@
         </xs:complexType>
     </xs:element>
     <xs:element name="foto" type="xs:NCName"/>
-    <xs:element name="sexo" type="xs:NCName"/>
     <xs:element name="titulo" type="xs:string"/>
     <xs:element name="autor">
         <xs:complexType mixed="true">
@@ -28,7 +26,7 @@
     </xs:element>
     <xs:element name="fechaPublicacion">
         <xs:complexType>
-            <xs:attribute name="año" use="required" type="xs:integer"/>
+            <xs:attribute name="año" type="xs:integer"/>
         </xs:complexType>
     </xs:element>
 </xs:schema>
