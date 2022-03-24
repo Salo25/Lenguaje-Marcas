@@ -29,6 +29,10 @@ p.errorViewport {
     }
 }
 
+#cuerpoPagina:active {
+    flex-direction: row-reverse;
+}
+
 h2:hover {
     transform: scale(1.25, 1.25);
 }
